@@ -1,0 +1,36 @@
+form input {
+  height: 75px;
+  width: 415px;
+}
+.App {
+  width: 534px;
+  margin: 50px auto;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.formBtn{
+  height: 50px;
+  margin-left:20px ;
+}
+
+@media (max-width:440px) {
+  form input {
+    height: 40px;
+    width: 313px;
+    border-radius: 10px;
+
+  }
+  .App {
+    width: 320px;
+    margin: 0px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .formBtn{
+    height: 25px;
+    margin-left:140px ;
+  }
+
+}
