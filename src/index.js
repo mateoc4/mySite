@@ -23,23 +23,3 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 serviceWorker.unregister();
-
-/*
-jak chcesz wbazce
-
-trzymac tez ta liczbe
-
-pushowac i odczytywac
-trzymac w sumie caly obiekt item
-ktory bedzie mial takie properties
-jak
-obj ={ number, name }
-
-i tablica takich obiektow to bedzie twoja tablica
-na onClicku
-
-dodajesz + 1 do state np
-i wysylasz do bazy
-
-
- */

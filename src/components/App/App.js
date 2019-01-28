@@ -6,7 +6,6 @@ import Form from "../Form/Form";
 import ArgumentsSite from "../Skeleton/ArgumentsSite";
 
 class App extends Component {
-    //ES7 property initializer
     state = {
         proArg: [],
         consArg: [],
@@ -73,6 +72,7 @@ class App extends Component {
             value: ""
         });
     };
+
     handleClickk = ev => {
         ev.preventDefault();
         const obj = {
@@ -86,6 +86,7 @@ class App extends Component {
             value2: ""
         });
     };
+
     handleChange = e => {
         this.setState({
             value: e.target.value,
@@ -98,6 +99,7 @@ class App extends Component {
             formVisible: !this.state.formVisible
         });
     };
+
     toggleVisible2 = () => {
         this.setState({
             formVisible2: !this.state.formVisible2
@@ -143,6 +145,4 @@ class App extends Component {
         );
     }
 }
-
 export default App;
-
